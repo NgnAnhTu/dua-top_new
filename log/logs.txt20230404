@@ -1,0 +1,8 @@
+﻿
+2023-04-04 20:24:38,663 [9668] ERROR Default [(null)] - 
+ Value cannot be null.
+Parameter name: valueSystem.ArgumentNullException: Value cannot be null.
+Parameter name: value
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at WebGame.Services.GameAPiService.GetListServer(Int32 from, Int32 to) in D:\Vtc_Mobile\templateproj\BXHDaoSiXuatQuanT12\DAL\GameAPiService.cs:line 45

@@ -1,0 +1,119 @@
+﻿
+2023-04-14 05:58:02,883 [10372] ERROR Default [(null)] - 
+ Value cannot be null.
+Parameter name: valueSystem.ArgumentNullException: Value cannot be null.
+Parameter name: value
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at WebGame.Services.GameAPiService.GetListServer(Int32 from, Int32 to) in D:\Vtc_Mobile\templateproj\BXHDaoSiXuatQuanT12\DAL\GameAPiService.cs:line 45
+
+2023-04-14 06:21:07,872 [5896] ERROR Default [(null)] - 
+ Value cannot be null.
+Parameter name: valueSystem.ArgumentNullException: Value cannot be null.
+Parameter name: value
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at WebGame.Services.GameAPiService.GetListServer(Int32 from, Int32 to) in D:\Vtc_Mobile\templateproj\BXHDaoSiXuatQuanT12\DAL\GameAPiService.cs:line 45
+
+2023-04-14 06:21:26,204 [16996] ERROR Utils.LogUtil [(null)] - 
+ 
+---------------------------------------------------------------------------
+[Func: Utils.UrlTools.CallUrl, Time:14/04/2023 06:21:26]
+    Details: {"url":"https://ds-mn03.mobigame.vn/frontend/web/sdk/server-list","method":"GET"}
+      Exception:  
+Message:Unable to connect to the remote server
+Source:System
+StackTrace:   at System.Net.HttpWebRequest.GetResponse()
+   at Utils.UrlTools.CallUrl(String url, String method) in D:\Vtc_Mobile\templateproj\Framework\Utils\UrlTools.cs:line 62]
+[End Func]
+2023-04-14 06:21:26,205 [16996] ERROR Default [(null)] - 
+ Value cannot be null.
+Parameter name: valueSystem.ArgumentNullException: Value cannot be null.
+Parameter name: value
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at WebGame.Services.GameAPiService.GetListServer(Int32 from, Int32 to) in D:\Vtc_Mobile\templateproj\BXHDaoSiXuatQuanT12\DAL\GameAPiService.cs:line 45
+
+2023-04-14 06:22:26,599 [732] ERROR Utils.LogUtil [(null)] - 
+ 
+---------------------------------------------------------------------------
+[Func: Utils.UrlTools.CallUrl, Time:14/04/2023 06:22:26]
+    Details: {"url":"https://ds-mn03.mobigame.vn/frontend/web/sdk/server-list","method":"GET"}
+      Exception:  
+Message:Unable to connect to the remote server
+Source:System
+StackTrace:   at System.Net.HttpWebRequest.GetResponse()
+   at Utils.UrlTools.CallUrl(String url, String method) in D:\Vtc_Mobile\templateproj\Framework\Utils\UrlTools.cs:line 62]
+[End Func]
+2023-04-14 06:22:26,600 [732] ERROR Default [(null)] - 
+ Value cannot be null.
+Parameter name: valueSystem.ArgumentNullException: Value cannot be null.
+Parameter name: value
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at WebGame.Services.GameAPiService.GetListServer(Int32 from, Int32 to) in D:\Vtc_Mobile\templateproj\BXHDaoSiXuatQuanT12\DAL\GameAPiService.cs:line 45
+
+2023-04-14 06:42:19,007 [9856] ERROR Utils.LogUtil [(null)] - 
+ 
+---------------------------------------------------------------------------
+[Func: Utils.UrlTools.CallUrl, Time:14/04/2023 06:42:19]
+    Details: {"url":"https://ds-mn03.mobigame.vn/frontend/web/sdk/server-list","method":"GET"}
+      Exception:  
+Message:Unable to connect to the remote server
+Source:System
+StackTrace:   at System.Net.HttpWebRequest.GetResponse()
+   at Utils.UrlTools.CallUrl(String url, String method) in D:\Vtc_Mobile\templateproj\Framework\Utils\UrlTools.cs:line 62]
+[End Func]
+2023-04-14 06:42:19,007 [9856] ERROR Default [(null)] - 
+ Value cannot be null.
+Parameter name: valueSystem.ArgumentNullException: Value cannot be null.
+Parameter name: value
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at WebGame.Services.GameAPiService.GetListServer(Int32 from, Int32 to) in D:\Vtc_Mobile\templateproj\BXHDaoSiXuatQuanT12\DAL\GameAPiService.cs:line 45
+
+2023-04-14 06:42:39,527 [6972] ERROR Utils.LogUtil [(null)] - 
+ 
+---------------------------------------------------------------------------
+[Func: Utils.UrlTools.CallUrl, Time:14/04/2023 06:42:39]
+    Details: {"url":"https://ds-mn03.mobigame.vn/frontend/web/sdk/server-list","method":"GET"}
+      Exception:  
+Message:Unable to connect to the remote server
+Source:System
+StackTrace:   at System.Net.HttpWebRequest.GetResponse()
+   at Utils.UrlTools.CallUrl(String url, String method) in D:\Vtc_Mobile\templateproj\Framework\Utils\UrlTools.cs:line 62]
+[End Func]
+2023-04-14 06:42:39,527 [6972] ERROR Default [(null)] - 
+ Value cannot be null.
+Parameter name: valueSystem.ArgumentNullException: Value cannot be null.
+Parameter name: value
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at WebGame.Services.GameAPiService.GetListServer(Int32 from, Int32 to) in D:\Vtc_Mobile\templateproj\BXHDaoSiXuatQuanT12\DAL\GameAPiService.cs:line 45
+
+2023-04-14 06:47:18,192 [16568] ERROR Utils.LogUtil [(null)] - 
+ 
+---------------------------------------------------------------------------
+[Func: Utils.UrlTools.CallUrl, Time:14/04/2023 06:47:18]
+    Details: {"url":"https://ds-mn03.mobigame.vn/frontend/web/sdk/server-list","method":"GET"}
+      Exception:  
+Message:Unable to connect to the remote server
+Source:System
+StackTrace:   at System.Net.HttpWebRequest.GetResponse()
+   at Utils.UrlTools.CallUrl(String url, String method) in D:\Vtc_Mobile\templateproj\Framework\Utils\UrlTools.cs:line 62]
+[End Func]
+2023-04-14 06:47:18,192 [16568] ERROR Default [(null)] - 
+ Value cannot be null.
+Parameter name: valueSystem.ArgumentNullException: Value cannot be null.
+Parameter name: value
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at WebGame.Services.GameAPiService.GetListServer(Int32 from, Int32 to) in D:\Vtc_Mobile\templateproj\BXHDaoSiXuatQuanT12\DAL\GameAPiService.cs:line 45
+
+2023-04-14 11:39:25,843 [15924] ERROR Default [(null)] - 
+ Value cannot be null.
+Parameter name: valueSystem.ArgumentNullException: Value cannot be null.
+Parameter name: value
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at WebGame.Services.GameAPiService.GetListServer(Int32 from, Int32 to) in D:\Vtc_Mobile\templateproj\BXHDaoSiXuatQuanT12\DAL\GameAPiService.cs:line 45

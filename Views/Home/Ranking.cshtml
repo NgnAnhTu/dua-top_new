@@ -1,0 +1,95 @@
+﻿@using GameService.Core
+@{
+    ViewBag.Title = "Common Page | Bảng Xếp Hạng";
+    Layout = "~/Views/Shared/_LayoutBXH.cshtml";
+
+    var mediaurl = Config.MediaPathUrl + "/bxh/";
+    var version = "?v=" + Config.MediaVersion;
+    var ismobile = ViewBag.IsMobile ? 1 : 0;
+}
+@using WebGame.Models
+
+@model List<DataResponse>
+
+@section script{
+    <script>
+        @*function GetRankData() {
+            var serverId = $('#slServer').val();
+            $.post('@Url.Action("RankingData", "Home")',
+                { serverid: serverId, from:@ViewBag.RankFrom, to:@ViewBag.RankTo },
+                function(data) {
+                    $('#table').html(data);
+                });
+        }
+        function GetRankBHData() {
+             var serverId = $('#slServer').val();
+            $.post('@Url.Action("_GetRankBHData","Home")',
+                { serverid: serverId, from:@ViewBag.RankFrom, to:@ViewBag.RankTo },
+                function(data) {
+                    $('#rankdata').html(data);
+                });
+        }*@
+        $(document).ready(function () {
+            //GetRankData();
+        });
+    </script>
+}
+
+<div class="section__content">
+    <div class="content-container">
+        <div class="content-bt">
+            <ul>
+                <li><a href="https://scoin.vn/nap-vao-game?GameId=330425" target="_blank"><img src="@(mediaurl)images/bt-napthe.png" alt=""></a></li>
+                <li><a href="https://daosixuatquan.onelink.me/wpeH/teaser" target="_blank"><img src="@(mediaurl)images/bt-taigame.png" alt=""></a></li>
+            </ul>
+        </div>
+        <div class="bxh">
+            <div class="table-rank tab-pane">
+                <table class="table table-striped f-roboto-medium">
+                    <thead>
+                        <tr>
+                            <th>HẠNG</th>
+                            <th>MÁY CHỦ</th>
+                            <th>TÊN NHÂN VẬT</th>
+                            <th>LỰC CHIẾN</th>
+                            <th>CẤP</th>
+                            <th>VIP</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @if (Model != null && Model.Count > 0)
+                        {
+                            var list = Model;
+                            var i = 1;
+                            foreach (var info in list)
+                            {
+                                <tr>
+                                    <td>
+                                        @if (i == 1)
+                                        {
+                                            <img src="@(mediaurl)images/ict1.png" class="img-responsive center-align" alt="">
+                                        }
+                                        else if (i == 2)
+                                        {<img src="@(mediaurl)images/ict2.png" class="img-responsive center-align" alt=""> }
+                                        else if (i == 3)
+                                        {<img src="@(mediaurl)images/ict3.png" class="img-responsive center-align" alt="">}
+                                        else
+                                        {@i}
+                                    </td>
+                                    <td>@info.serverDisplay</td>
+                                    <td>@info.rolename</td>
+                                    <td>@info.power</td>
+                                    <td>@info.level</td>
+                                    <td>@info.vip</td>
+                                </tr>
+                                i++;
+                            }
+                        }
+
+                    </tbody>
+                </table>
+            </div>
+            <div class="text-dl f-roboto-medium">Dữ liệu sẽ cập nhật chính xác sau khoảng 60 phút</div>
+        </div>
+    </div>
+</div>

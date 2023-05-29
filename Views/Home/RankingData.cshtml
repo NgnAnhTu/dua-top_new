@@ -1,0 +1,54 @@
+﻿
+@using WebGame.Models
+@using GameService.Core
+@model List<GetRankGold>
+
+@{
+    var mediaurl = Config.MediaPathUrl + "/bxh/";
+    var version = "?v=" + Config.MediaVersion;
+}
+<tr style="background-image: url('/Content/bxh_hgh/images/layout.png') ">
+    <th>HẠNG</th>
+    <th>MÁY CHỦ</th>
+    <th>TÊN NHÂN VẬT</th>
+    <th>LỰC CHIẾN</th>
+    <th>CẤP</th>
+    <th>VIP</th>
+</tr>
+@if (Model != null && Model.Count > 0)
+{
+    var list = Model;
+    var i = 1;
+    foreach (var info in list)
+    {
+        var yourStyle = "background-image: url('" + @mediaurl + "/images/rank/rank1.png')";
+
+
+<tr>
+    <td>
+        @if (i == 1)
+        {
+            <img src="/Content/bxh_hgh/images/rank/rank1.png" alt="">
+        }
+        else if (i == 2)
+        {<img src="/Content/bxh_hgh/images/rank/rank2.png" alt=""> }
+        else if (i == 3)
+        {<img src="/Content/bxh_hgh/images/rank/rank3.png" alt="">}
+        else
+        {@i}
+    </td>
+            <td>@info.serverName</td>
+            <td>@info.name</td>
+            <td>@info.key</td>
+            <td>@info.level</td>
+            <td>@info.vip</td>
+        </tr>
+        i++;
+    }
+}
+else
+{
+    <div class="row1" style="padding: 150px">Dữ liệu đang được cập nhật</div>
+}
+
+

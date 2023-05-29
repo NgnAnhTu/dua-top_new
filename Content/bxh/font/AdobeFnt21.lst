@@ -1,0 +1,100 @@
+%!Adobe-FontList 1.20
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Roboto-Bold
+FamilyName:Roboto
+StyleName:Bold
+FullName:Roboto Bold
+MenuName:Roboto
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:C:\Users\LENOVO\Desktop\Dao Si\Source CSS\css-duatop-cuongthi\Font\Roboto-Bold.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:127744
+FileModTime:1402656412
+WeightClass:700
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,18,Roboto Bold
+NameArray:0,Mac,4,Roboto Bold
+NameArray:0,Win,1,Roboto
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Roboto-Light
+FamilyName:Roboto
+StyleName:Light
+FullName:Roboto Light
+MenuName:Roboto
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\LENOVO\Desktop\Dao Si\Source CSS\css-duatop-cuongthi\Font\Roboto-Light.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:126792
+FileModTime:1402656412
+WeightClass:300
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,18,Roboto Light
+NameArray:0,Mac,4,Roboto Light
+NameArray:0,Win,1,Roboto
+NameArray:0,Win,16,Roboto
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Roboto-Medium
+FamilyName:Roboto
+StyleName:Medium
+FullName:Roboto Medium
+MenuName:Roboto
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\LENOVO\Desktop\Dao Si\Source CSS\css-duatop-cuongthi\Font\Roboto-Medium.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:127488
+FileModTime:1402656412
+WeightClass:500
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,18,Roboto Medium
+NameArray:0,Mac,4,Roboto Medium
+NameArray:0,Win,1,Roboto
+NameArray:0,Win,16,Roboto
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:UVNLacLongQuanBold
+FamilyName:UVN Lac Long Quan
+StyleName:Bold
+FullName:UVN Lac Long Quan Bold
+MenuName:UVN Lac Long Quan
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:C:\Users\LENOVO\Desktop\Dao Si\Source CSS\css-duatop-cuongthi\Font\UVNLacLongQuan.TTF
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:63216
+FileModTime:999383288
+WeightClass:700
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,UVN Lac Long Quan Bold
+NameArray:0,Win,1,UVN Lac Long Quan
+%EndFont
+
