@@ -109,9 +109,9 @@
 # https://hub.docker.com/_/microsoft-windows-servercore
 # "ltsc2016" to get fonts installed
 # Server Core 2019 is shipped without fonts
-
+ 
 #FROM mcr.microsoft.com/windows/servercore:ltsc2016
-	FROM mcr.microsoft.com/windows:ltsc2019
+	FROM mcr.microsoft.com/windows/servercore
 # Copy the application from folder "app" to "C:\app" on container machine
 
 COPY app/ /app
