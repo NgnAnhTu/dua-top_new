@@ -111,7 +111,7 @@
 # Server Core 2019 is shipped without fonts
 
 #FROM mcr.microsoft.com/windows/servercore:ltsc2016
-FROM mcr.microsoft.com/dotnet/aspnet:7.0
+	FROM mcr.microsoft.com/windows:ltsc2019
 # Copy the application from folder "app" to "C:\app" on container machine
 
 COPY app/ /app
