@@ -6,7 +6,7 @@
 #EXPOSE 80
 # Khởi động Nginx khi container được chạy
 #CMD ["nginx", "-g", "daemon off;"]
---------------------------------------------------------------------------
+#--------------------------------------------------------------------------
 # The general framwork of my script is based on fragments from all over the Internet, including
 # the following website.  Since there is no clear owner of this information and it was contributed
 # by many people, I am assuming that an MIT license is appropriate.
