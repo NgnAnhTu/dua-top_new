@@ -22,7 +22,8 @@
 # docker exec -it 82e08c546fd5 powershell
 
 
-FROM microsoft/aspnet:4.7.2-windowsservercore-1803
+#FROM microsoft/aspnet:4.7.2-windowsservercore-1803
+FROM mcr.microsoft.com/windows/servercore:ltsc2019
 
 SHELL [ "powershell.exe", "-Command"]
 
