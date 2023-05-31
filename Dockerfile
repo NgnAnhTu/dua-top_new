@@ -23,6 +23,7 @@
 
 
 #FROM microsoft/aspnet:4.7.2-windowsservercore-1803
+FROM mcr.microsoft.com/windows/servercore/iis:windowsservercore-ltsc2019
 FROM mcr.microsoft.com/dotnet/aspnet:7.0
 
 SHELL [ "powershell.exe", "-Command"]
