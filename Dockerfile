@@ -33,7 +33,7 @@ SHELL [ "powershell.exe", "-Command"]
 #--------------------------------------------------------------------------------
 
 # Copy and install msdeploy service
-ADD "https://download.microsoft.com/download/0/1/D/01DC28EA-638C-4A22-A57B-4CEF97755C6C/WebDeploy_amd64_en-US.msi" c:/msi/
+ADD "https://download.visualstudio.microsoft.com/download/pr/e1828da1-907a-46fe-a3cf-f3b9ea1c485c/035860f3c0d2bab0458e634685648385/webdeploy_amd64_en-us.msi" c:/msi/
 RUN Start-Process msiexec.exe -ArgumentList '-i', 'c:\msi\WebDeploy_amd64_en-US.msi', '/quiet', '/norestart' -NoNewWindow
 # RUN net.exe start msdepsvc 
 
