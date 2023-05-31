@@ -81,12 +81,13 @@ RUN powershell.exe -NoProfile -Command Set-ItemProperty -Path HKLM:\SOFTWARE\Mic
 # Web Deploy the Application to IIS Inside of the Container
 #--------------------------------------------------------------------------------
 RUN mkdir c:\app
-ADD AspNetDocker.zip /app/AspNetDocker.zip
+#ADD AspNetDocker.zip /app/AspNetDocker.zip
 #ADD AspNetDocker.deploy.cmd /app/AspNetDocker.deploy.cmd
 #ADD AspNetDocker.SetParameters.xml /app/AspNetDocker.SetParameters.xml
 #ADD AspNetDocker.SourceManifest.xml /app/AspNetDocker.SourceManifest.xml
 RUN mkdir c:\inetpub\wwwroot\aspnetdocker
-RUN powershell.exe Sync-Website -ComputerName http://localhost -SourcePackage /app/AspNetDocker.zip -TargetPath /inetpub/wwwroot
+#RUN powershell.exe Sync-Website -ComputerName http://localhost -SourcePackage /app/AspNetDocker.zip -TargetPath /inetpub/wwwroot
+RUN powershell.exe Sync-Website -ComputerName http://localhost -SourcePackage /app/ -TargetPath /inetpub/wwwroot
 #RUN powershell.exe -NoProfile -Command ./AspNetDocker.deploy.cmd /Y
 
 # There may be ACL issues during deployment: https://fluentbytes.com/how-to-fix-error-this-access-control-list-is-not-in-canonical-form-and-therefore-cannot-be-modified-error-count-1/
